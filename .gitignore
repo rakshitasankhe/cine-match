@@ -1,0 +1,25 @@
+# Python bytecode cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets and environment variables (never push)
+secrets.toml
+.env
+
+# VSCode editor settings folder
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Virtual environment folders
+venv/
+env/
+.venv/

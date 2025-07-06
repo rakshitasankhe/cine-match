@@ -30,3 +30,12 @@ CREATE TABLE IF NOT EXISTS UserMoodLogs (
     mood VARCHAR(50),
     log_date TIMESTAMPTZ DEFAULT NOW()
 );
+
+CREATE TABLE IF NOT EXISTS UserInteractions (
+    interaction_id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES Users(user_id),
+    movie_id INT REFERENCES Movies(movie_id),
+    clicked BOOLEAN DEFAULT FALSE,
+    watch_duration INT,  -- in seconds
+    interaction_time TIMESTAMPTZ DEFAULT NOW()
+);
