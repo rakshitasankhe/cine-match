@@ -4,8 +4,8 @@ import bcrypt   # Password hashing library
 # Database connection parameters (update with your own)
 DB_PARAMS = {
     "dbname": "cine_match_db",
-    "user": "your_username",
-    "password": "your_password",
+    "user": "postgres",
+    "password": "password",
     "host": "localhost",
     "port": "5432"
 }

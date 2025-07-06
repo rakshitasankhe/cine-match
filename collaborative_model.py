@@ -7,7 +7,7 @@ def fetch_ratings():
     conn = psycopg2.connect(
         dbname="cine_match_db",
         user="postgres",
-        password="Boka@1231",
+        password="password",
         host="localhost",
         port="5432"
     )

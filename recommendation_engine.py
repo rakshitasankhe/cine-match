@@ -7,7 +7,7 @@ from typing import List, Optional, Tuple
 # ------------------------- DB CONFIG -------------------------
 DB_NAME = "cine_match_db"
 DB_USER = "postgres"
-DB_PASSWORD = "Boka@1231"
+DB_PASSWORD = "password"
 DB_HOST = "localhost"
 DB_PORT = "5432"
 

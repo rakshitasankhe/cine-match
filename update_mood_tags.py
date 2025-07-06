@@ -2,8 +2,8 @@ import psycopg2
 
 DB_PARAMS = {
     "dbname": "cine_match_db",
-    "user": "your_username",
-    "password": "your_password",
+    "user": "postgres",
+    "password": "password",
     "host": "localhost",
     "port": "5432"
 }
